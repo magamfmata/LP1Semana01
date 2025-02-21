@@ -32,6 +32,16 @@ namespace VariousTypes
             Console.WriteLine(real2);
             Console.WriteLine(real3);
 
+            bool condicao1 = false;
+            bool condicao2 = true; 
+
+            Console.WriteLine(condicao1);
+            Console.WriteLine(condicao2);
+
+
+
+
+
 
         }
     }
