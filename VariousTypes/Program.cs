@@ -24,6 +24,15 @@ namespace VariousTypes
             char lua = '\u263D';
             Console.WriteLine(lua);
 
+            double real1 = 3.333333;
+            float real2 = 3.333333f;
+            decimal real3 = 3.333333m; 
+
+            Console.WriteLine(real1);
+            Console.WriteLine(real2);
+            Console.WriteLine(real3);
+
+
         }
     }
 }
