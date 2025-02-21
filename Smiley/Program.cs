@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Text; 
+using System.Globalization;
+using System.Runtime.CompilerServices;
 
 namespace Smiley
 {
@@ -6,7 +9,21 @@ namespace Smiley
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello LP1!");
+            Console.OutputEncoding = Encoding.UTF8;
+
+            Console.WriteLine("Insire o código: ");
+            string input1 = Console.ReadLine(); 
+
+            int value = Convert.ToInt32(input1);
+            
+            char output = Convert.ToChar(input1);
+            
+            
+            
+
+
+
+
         }
     }
 }
