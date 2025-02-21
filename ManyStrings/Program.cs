@@ -10,6 +10,21 @@ namespace ManyStrings
     {
         private static void Main(string[] args)
         {
+            double xx = 1.23456;
+            int ii = 19;
+
+            string decimais = $"xx={xx:f2}";
+            Console.WriteLine(decimais);
+
+            string percentagem = $"xx perc = {xx:p1}"; 
+            string hexadecimal = $"ii hexa = {ii:x1}";
+            string moeda = $"ii moe = {ii:c}";
+            
+            Console.WriteLine(percentagem);
+            Console.WriteLine(hexadecimal);
+            Console.WriteLine(moeda);
+
+
             Console.OutputEncoding = Encoding.UTF8;
             Console.WriteLine("Hello LP1!");
 
